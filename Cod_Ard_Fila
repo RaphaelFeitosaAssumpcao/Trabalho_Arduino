@@ -13,7 +13,7 @@ void setup() {
   lcd_1.setCursor(0, 0);
   lcd_1.print("Pressionar botao");
   lcd_1.setCursor(0, 1);
-  lcd_1.print("SENHA ATUAL: 0");
+  lcd_1.print("SENHA: 0");
   
 }
 
@@ -25,5 +25,5 @@ void loop() {
       seconds++;
       lcd_1.clear();
       lcd_1.setCursor(0, 0);
-      lcd_1.print("FIQUE ATENTO!");
+      lcd_1.print("PROXIMO!");
       lcd_1.setCursor(0, 1);
